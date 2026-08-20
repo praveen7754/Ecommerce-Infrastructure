@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Local variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform lock file should normally be committed
+# .terraform.lock.hcl
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
